@@ -1,0 +1,18 @@
+{
+	"author": "jollen",
+	"type": "coapBroker",
+	"connections": [
+		{
+			"upproc": "io.flowchain.console",
+		 	"upport": "out",
+		 	"downproc": "io.flowchain.fs",
+		 	"downport": "in"
+		},
+		{
+			"upproc": "io.flowchain.fs",
+		 	"upport": "out",
+		 	"downproc": "io.flowchain.dropbox",
+		 	"downport": "in"
+		}
+	]
+}

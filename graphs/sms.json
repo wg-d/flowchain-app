@@ -1,0 +1,12 @@
+{
+	"author": "jollen",
+	"type": "coapBroker",
+	"connections": [
+		{
+			"upproc": "io.flowchain.sms",
+		 	"upport": "out",
+		 	"downproc": "io.flowchain.sms",
+		 	"downport": "in"
+		}
+	]
+}
